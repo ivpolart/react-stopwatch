@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background-color: #eceff1;
+  color: #010b40;
+}
+
+.app {
+  background-color: #030303;
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+
+.stopwatch-card {
+  position: absolute;
+  text-align: center;
+  width: 325px;
+  height: 130px;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stopwatch-card p {
+  font-size: 56px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+button {
+  outline: none;
+  border: 1px solid rgb(51, 51, 51);
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  background-color: rgb(68, 68, 68);
+}
+
+.button-start {
+  background-color: #1142059f;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
